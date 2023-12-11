@@ -9,7 +9,7 @@ $dotenv->required('AMPLITUDE_API_KEY')->notEmpty();
 function printForm($id) {
   ?>
   <form id="id_<?php echo $id; ?>" method="get" hx-get="/result.php" hx-trigger="submit" hx-target="#result_<?php echo $id; ?>">
-                <div class="flex flex-row gap-9 ">
+                <div class="flex flex-row xl:gap-9 gap-2">
                   <div class="sm:col-span-2 sm:col-start-1">
                     <div class="mt-2">
                       <input
@@ -86,8 +86,6 @@ function printForm($id) {
     <title>Amplitude Feature Flags</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/htmx.org@1.9.9" integrity="sha384-QFjmbokDn2DjBjq+fM+8LUIVrAgqcNW2s0PjAxHETgRn9l4fvX31ZxDxvwQnyMOX" crossorigin="anonymous"></script>
-
-
 </head>
 <body>
     <nav class="bg-indigo-600 shadow shadow-black">
