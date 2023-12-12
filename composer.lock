@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81784eacc328f8a20b876ce6b9f37213",
+    "content-hash": "0b7f45729d6303c1c54c08f0dd606e87",
     "packages": [
         {
             "name": "amplitude/experiment-php-server",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amplitude/experiment-php-server.git",
-                "reference": "97cfd38a251939dd9d82ea8b1ac22217d1e8c573"
+                "reference": "7f1dc7586f43eab0ea7a8753f837a8cdebbef7b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amplitude/experiment-php-server/zipball/97cfd38a251939dd9d82ea8b1ac22217d1e8c573",
-                "reference": "97cfd38a251939dd9d82ea8b1ac22217d1e8c573",
+                "url": "https://api.github.com/repos/amplitude/experiment-php-server/zipball/7f1dc7586f43eab0ea7a8753f837a8cdebbef7b9",
+                "reference": "7f1dc7586f43eab0ea7a8753f837a8cdebbef7b9",
                 "shasum": ""
             },
             "require": {
@@ -56,9 +56,9 @@
             ],
             "support": {
                 "issues": "https://github.com/amplitude/experiment-php-server/issues",
-                "source": "https://github.com/amplitude/experiment-php-server/tree/0.3.0"
+                "source": "https://github.com/amplitude/experiment-php-server/tree/0.3.1"
             },
-            "time": "2023-11-22T22:05:05+00:00"
+            "time": "2023-11-30T22:03:03+00:00"
         },
         {
             "name": "graham-campbell/result-type",
