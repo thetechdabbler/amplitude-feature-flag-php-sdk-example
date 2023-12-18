@@ -3,5 +3,4 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__. "/../");
 $dotenv->load();
 
-$dotenv->required('APP_NAME')->notEmpty();
 $dotenv->required('AMPLITUDE_API_KEY')->notEmpty();

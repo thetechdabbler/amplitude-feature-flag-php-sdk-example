@@ -10,7 +10,7 @@ Docker and Docker Compose
 
 1. Clone this repo
 2. Run `docker-compose up -d`
-3. Run `docker exec -it amplitude-app-1 composer install`
+3. Run `docker exec -it amplitude_app composer install`
 
 ### Configuring
 

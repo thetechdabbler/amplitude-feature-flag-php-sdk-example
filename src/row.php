@@ -4,7 +4,22 @@
 ?>
 <form id="id_<?php echo $id; ?>" method="get" hx-get="/result.php" hx-trigger="submit" hx-target="#result_<?php echo $id; ?>">
                 <div class="flex flex-row justify-between xl:gap-9 gap-2">
-                  <div class="sm:col-span-2 sm:col-start-1">
+                <div class="sm:col-span-2 sm:col-start-1">
+                  <div class="mt-2 p-1" title="Evaluate Locally">
+                      <input
+                        type="checkbox" 
+                        placeholder="Local Evaluation"
+                        name="local"
+                        id="local"
+                        value="1"
+                        autocomplete="local"
+                        class="block w-full rounded-full text-gray-900 shadow-sm
+                          
+                         w-6 h-6
+                         sm:text-sm sm:leading-6">
+                    </div>
+                  </div>  
+                <div class="sm:col-span-2 sm:col-start-1">
                     <div class="mt-2">
                       <input
                         type="number" 
